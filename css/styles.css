@@ -1,0 +1,570 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.fylo-content{
+    max-width: 144.0rem;
+    margin: 0px auto;
+}
+
+h1{
+    font-size: 4.0rem;
+    font-family: "Raleway";
+    margin-bottom: 2rem;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 1.6rem;
+    font-family: "Open Sans";
+}
+
+p{
+    font-size: 1.6rem;
+    font-family: "Open Sans";
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.fylo-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5.2rem 6.2rem 8.0rem 6.2rem;
+}
+
+.fylo-logo ul li{
+    margin-right: 8.0rem;
+}
+
+.fylo-logo ul li:last-child{
+    margin-right: 0rem;
+}
+
+.fylo-logo ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.fylo-logo img{
+    font-size: 4.0rem;
+    height: 4.0rem;  
+}
+
+.fylo-section-top{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 6.2rem 13.0rem 6.2rem;
+}
+
+.fylo-section-top-content p{
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 53.0rem;
+}
+
+.fylo-section-top-content{
+    width: 100%;
+    max-width: 60rem;
+    margin-right: 1.64rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#user-email{
+    height: 4.0rem;
+    width: 100%;
+    max-width: 28.0rem;
+    margin-right: 1.5rem;
+    padding-left: 2rem;
+}
+
+.button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    width: 18.0rem;
+    height: 4.0rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1.5px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    font-family: "Open Sans";
+}
+
+.fylo-section-top-image img{
+    width: 100%;
+    max-width: 69.96rem;
+    height: 100%;
+    max-height: 50.0rem;
+}
+
+.fylo-section-middle{
+    display: flex;
+    flex-direction: row;
+    background: url(../images/bg-curve-desktop.svg) no-repeat top center;
+    background-size: cover;
+    padding: 14.0rem 6.2rem 9.0rem 6.2rem;
+}
+
+.fylo-section-middle-content {
+    width: 100%;
+    max-width: 64.916rem;
+    margin-right: 10.684rem;
+}
+
+.fylo-section-middle-content a{
+    color: hsl(170, 45%, 43%);
+    border-bottom: solid 1px hsl(170, 45%, 43%);
+    font-size: 1.6rem;
+    padding-bottom: 0.5rem;
+}
+
+.fylo-section-middle-content p{
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 52.0rem;
+}
+
+.fylo-section-middle-content p:last-child{
+    margin-bottom: 0rem;
+    font-size: 1rem;
+}
+
+.fylo-section-middle-image img{
+    width: 100%;
+    max-width: 56.0rem;
+    height: 100%;
+    max-height: 40.0rem;
+}
+
+.fylo-section-middle-user-opinion{
+    width: 100%;
+    max-width: 35.0rem;
+    background-color: white;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 2rem 3rem 1rem 3rem;
+    margin-top: 3.5rem;
+}
+
+.fylo-section-middle-user-opinion p{
+    font-size: 1.4rem;
+    width: 100%;
+    max-width: 29.0rem;
+}
+
+.commentary{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.commentary p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 15.0rem;
+}
+
+.commentary img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.fylo-section-middle-user-opinion img{
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.form-section-footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16.0rem;
+}
+
+.fylo-section-footer-content p{
+    width: 100%;
+    max-width: 43.0rem;
+}
+
+.fylo-section-footer-content {
+    margin-right: 34.3rem;
+}
+
+.fylo-section-footer{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 8.5rem 6.2rem 6.5rem 6.2rem;
+}
+
+#emails{
+    height: 4rem;
+    width: 38.0rem;
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.fyle-footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding-top: 8.5rem;
+    padding: 5.2rem 6.2rem 5.2rem 6.2rem;
+}
+
+.fyle-footer-logo{
+    margin-bottom: 1rem;
+}
+
+.fyle-footer-inf ul li img{
+    padding-right: 1.5rem;
+    color: white;
+}
+
+.fyle-footer-content ul li{
+    margin-bottom: 1rem;
+}
+
+.fyle-footer-content ul li a{
+    color: white;
+}
+
+.fyle-footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.fyle-footer-social-networks ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.fyle-footer-social-networks ul li img{
+    width: 3.5rem;
+    padding: 1rem;
+    margin-right: 3rem;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 91.25rem){
+    .fylo-section-footer-content {
+        margin-right: 30.0rem;
+    }
+
+    .form-section-footer{
+        margin-right: 14.0rem;
+    }
+}
+
+@media screen and (max-width: 87.5rem){
+    .fylo-section-footer-content {
+        margin-right: 28.0rem;
+    }
+
+    .form-section-footer{
+        margin-right: 10.0rem;
+    }
+}
+
+@media screen and (max-width: 83.75rem){
+    .form-section-footer{
+        margin-right: 7.0rem;
+    }
+}
+
+@media screen and (max-width: 81.875rem){
+    .fylo-section-footer-content {
+        margin-right: 23.0rem;
+    }
+
+    .form-section-footer{
+        margin-right: 4.0rem;
+    }
+}
+
+@media screen and (max-width: 76.5625rem){
+    h1{
+        font-size: 3.0rem;
+    }
+
+    .fylo-section-middle-content {
+        margin-right: 9.684rem;
+    }
+}
+
+@media screen and (max-width: 70rem){
+    .fylo-section-footer-content {
+        margin-right: 19.0rem;
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+    .fylo-section-middle-user-opinion p{
+        font-size: 1.2rem;
+    }
+
+    ul li{
+        font-size: 1.3rem;
+    } 
+
+    #submit{
+        width: 100%;
+        max-width: 28.0rem
+    }
+}
+
+@media screen and (max-width: 69.75rem){
+    #user-email{
+        margin-bottom: 1rem;
+    }
+
+    .fylo-section-footer-content {
+        margin-right: 12.0rem;
+    }
+
+    .form-section-footer{
+        margin-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 56.875rem){
+    #emails{
+        width: 35.0rem
+    }
+
+    .fylo-section-middle-image img{
+        height: 30.0rem;
+    }
+}
+
+@media screen and (max-width: 54.375rem){  
+   p{
+       text-align: justify;
+   }
+}
+
+@media screen and (max-width: 50rem){
+    h1{
+        font-size: 2.0rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+    .fylo-section-footer-content {
+        margin-right: 10.0rem;
+    }
+
+    .fylo-section-middle-user-opinion p{
+        font-size: 1.1rem;
+    }
+
+    ul li{
+            font-size: 1.2rem;
+        } 
+    
+    #emails{
+        width: 30.0rem
+    }
+
+    .fylo-section-middle-image img{
+        height: 27.0rem;
+    }
+
+    .fylo-logo img{
+        width: 8.0rem;
+        height: 3.5rem;
+    }
+
+    .fyle-footer-logo img{
+        width: 10.0rem;
+    }
+}
+
+@media screen and (max-width: 43.75rem){
+    .fylo-section-footer-content {
+        margin-right: 8.0rem;
+    }
+}
+
+@media screen and (max-width: 40.625rem){
+    .fylo-section-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fylo-section-top-image{
+        margin-bottom: 2rem;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .fylo-section-middle{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fylo-section-middle-content{
+        margin-bottom: 3rem;
+    }
+
+    .fylo-section-middle-content a{
+        font-size: 1.3rem;
+    }
+
+    .fylo-section-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fylo-section-footer-content{
+        margin: 0rem 0rem 3rem 0rem;
+    }
+
+    .fylo-section-footer-content p{
+        width: 100%;
+        max-width: 49.44rem;
+    }
+
+    .fylo-logo ul li{
+        margin-right: 2.0rem;
+    }
+    
+    .fylo-logo ul li:last-child{
+        margin-right: 0rem;
+    }
+
+    .fylo-section-footer-form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .button{
+        width: 100%;
+        max-width: 30.0rem;
+    }
+
+    #emails{
+        text-align: center;
+    }
+
+    #user-email{
+        width: 100%;
+        max-width: 30.0rem;
+        margin-right: 0rem;
+        text-align: center;
+    }
+
+    #submit{
+        width: 100%;
+        max-width: 30.0rem;
+    }
+    
+    .fylo-section-top-form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fyle-footer-logo img{
+        padding-right: 1rem;
+    }
+
+    .fyle-footer-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fyle-footer-inf ul li:last-child{
+        padding-bottom: 2rem;
+    }
+
+    .fyle-footer-inf1 ul li:last-child{
+        padding-bottom: 3rem;
+    }
+
+    .fyle-footer-inf2 ul li:last-child{
+        padding-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 28.125rem){
+    .fylo-logo img{
+        width: 7.0rem;
+        height: 3.0rem;
+    }
+
+    .fyle-footer-logo img{
+        width: 8.0rem;
+    }
+
+    .fyle-footer-inf ul li img{
+        width: 2.5rem;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .button{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 22.5rem){
+    fyle-footer{
+        font-size: 1rem;
+    }
+
+    .fylo-logo img{
+        width: 5.0rem;  
+    }
+
+    .fyle-footer-logo img{
+        width: 6.0rem;
+    }
+
+    h1{
+        font-size: 1.7rem;
+    }
+
+    ul li{
+        font-size: 1rem;
+    }
+
+    #user-email{
+        width: 100%;
+        max-width: 23.6rem;
+    }
+
+    #submit{
+        width: 100%;
+        max-width: 23.6rem;
+    }
+}
